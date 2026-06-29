@@ -12,7 +12,7 @@ a { text-decoration:none; color:#fff; outline:none; }
 
 #citybase a:hover { border-bottom:1px solid #fff; margin-bottom:-1px; }
 
-#baseborder { width:650px; padding:20px; border:0px dashed #FAA0A0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
+#baseborder { width:720px; padding:20px; border:0px dashed #FAA0A0; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; }
 
 #bottomspace { width:650px; position:absolute; height:35px; margin:50px 0px 0px 0px; text-align:center; font-size:14px; line-height:14px; color:#fff; letter-spacing:2px; }
 
