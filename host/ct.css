@@ -1,93 +1,101 @@
-body { margin:0; background:#FFDEE5; font-size:15px; font-family:'Exo 2', Verdana, sans-serif; color:#000; line-height:19px; letter-spacing:1px; color:#fff; }
+body { 
+    margin: 0; 
+    background: #FFDEE5; 
+    font-size: 15px; 
+    font-family: 'Exo 2', Verdana, sans-serif; 
+    color: #000; line-height:19px; 
+    letter-spacing: 1px; 
+    color: #fff; 
+}
 
 a { 
-text-decoration: none; 
-color: #ffef5d; 
-outline: none;  
-cursor: pointer!important;
-border-bottom: 1px solid #fff;
+    text-decoration: none; 
+    color: #ffef5d; 
+    outline: none;  
+    cursor: pointer!important;
+    border-bottom: 1px solid #fff;
 }
 
 a:hover { 
-font-weight: 900;
-border-bottom: 2px solid #fff;
+    font-weight: 900;
+    border-bottom: 2px solid #fff;
 }
 
 .clr { 
-clear: both; 
+    clear: both; 
 }
 
 #main { 
-margin: auto; 
-width: 600px; 
+    margin: auto; 
+    width: 600px; 
 }
 
 #city { 
-position: absolute; 
-top: 150px; 
-width: 600px; 
-height: 200px; 
+    position: absolute; 
+    top: 150px; 
+    width: 600px; 
+    height: 200px; 
 }
 
 #citybase { 
-position: absolute; 
-padding: 25px; 
-background: #F55858; 
-margin: 199px 0px 0px -50px; 
-z-index: 200; 
--webkit-border-radius: 20px; 
--moz-border-radius: 20px; 
-border-radius: 20px; 
+    position: absolute; 
+    padding: 25px; 
+    background: #F55858; 
+    margin: 199px 0px 0px -50px; 
+    z-index: 200; 
+    -webkit-border-radius: 20px; 
+    -moz-border-radius: 20px; 
+    border-radius: 20px; 
 }
 
 #citybase a:hover {
-border-bottom: 1px solid #fff; 
-margin-bottom: -1px;
+    border-bottom: 1px solid #fff; 
+    margin-bottom: -1px;
 }
 
 #baseborder { 
-width: 610px; 
-padding: 20px; 
-border: 0px dashed #FAA0A0; 
--webkit-border-radius: 10px; 
--moz-border-radius: 10px; 
-border-radius: 10px; 
+    width: 610px; 
+    padding: 20px; 
+    border: 0px dashed #FAA0A0; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px; 
 }
 
 #bottomspace { 
-width: 650px; 
-position: absolute; 
-height: 35px; 
-margin: 50px 0px 0px 0px; 
-text-align: center; 
-font-size: 14px; 
-line-height: 14px; 
-color: #fff; 
-letter-spacing: 2px; 
+    width: 650px; 
+    position: absolute; 
+    height: 35px; 
+    margin: 50px 0px 0px 0px; 
+    text-align: center; 
+    font-size: 14px; 
+    line-height: 14px; 
+    color: #fff; 
+    letter-spacing: 2px; 
 }
 
 #copyr { 
-position:absolute; 
-margin-top:-65px; 
-width:100%; 
-text-align:center; 
+    position:absolute; 
+    margin-top:-65px; 
+    width:100%; 
+    text-align:center; 
 }
 
 .blurb { 
-width: calc(100% - 65px); 
-background: #FF6B6B; 
-padding: 19px 10px 21px 60px; 
--webkit-border-radius: 10px; 
--moz-border-radius: 10px; 
-border-radius: 10px; 
-display: block; 
-margin-bottom: 20px; 
-font-size: 15px; 
-line-height: 21px; 
--webkit-transition: all 0.2s ease-in-out;
--moz-transition: all 0.2s ease-in-out;
--o-transition: all 0.2s ease-in-out;
-transition: all 0.2s ease-in-out; 
+    width: calc(100% - 65px); 
+    background: #FF6B6B; 
+    padding: 19px 10px 21px 60px; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px; 
+    display: block; 
+    margin-bottom: 20px; 
+    font-size: 15px; 
+    line-height: 21px; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
 }
 
 .aside-img {
@@ -107,7 +115,9 @@ transition: all 0.2s ease-in-out;
     color: #000;
 }
 
-.blurbicon { font-size:20px; line-height:20px; color:#fff; text-align:center; padding:13px 15px 15px 16px; background:#FF6B6B; border:12px solid #F55858; position:absolute; margin:-30px 15px 0px -90px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; cursor:default; }
+.blurbicon { 
+    font-size:20px; 
+    line-height:20px; color:#fff; text-align:center; padding:13px 15px 15px 16px; background:#FF6B6B; border:12px solid #F55858; position:absolute; margin:-30px 15px 0px -90px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; cursor:default; }
 
 .blurb a { color:#fff; border-bottom:1px solid #fff; margin-bottom:-1px; }
 
