@@ -90,6 +90,23 @@ line-height: 21px;
 transition: all 0.2s ease-in-out; 
 }
 
+.aside-img {
+    margin-top: -5px;
+    text-decoration: none;
+    text-align: center; 
+    z-index: -1;
+    margin-left: 108px;
+}
+
+.aside-img a {
+    font-weight: normal;
+    color: #000;
+}
+
+.aside-img a:hover {
+    color: #000;
+}
+
 .blurbicon { font-size:20px; line-height:20px; color:#fff; text-align:center; padding:13px 15px 15px 16px; background:#FF6B6B; border:12px solid #F55858; position:absolute; margin:-30px 15px 0px -90px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; cursor:default; }
 
 .blurb a { color:#fff; border-bottom:1px solid #fff; margin-bottom:-1px; }
