@@ -2,9 +2,13 @@ body { margin:0; background:#FFDEE5; font-size:15px; font-family:'Exo 2', Verdan
 
 a { text-decoration:none; color:#fff; outline:none;  
     cursor: pointer!important;
-  border-bottom: 1px solid #fff
+  border-bottom: 1px solid #fff;
   }
 
+a:hover { 
+    color: #ffef5d;
+    border-bottom: 1px solid #fff;
+}
 
 .clr { clear:both; }
 
