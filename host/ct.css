@@ -381,7 +381,7 @@ body { font-size:17px; line-height:23px; }
 
 .prcagem { width:280px; height:200px; border:4px solid #E8E8E8; border-top:26px solid #E8E8E8; float:none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f6f6f6; -webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out; margin-top:200px; margin:auto; }
 
-.prinfo { width:calc(100% - 40px); padding:30px 20px 0px 20px; float:none; }
+.prinfo { width:calc(100% - 40px); padding:30px 20px 30px 20px; float:none; }
 
 .prdesc { width:100%; margin-bottom:10px; }
 
