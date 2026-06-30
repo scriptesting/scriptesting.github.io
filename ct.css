@@ -51,7 +51,7 @@ a { text-decoration:none; color:#fff; outline:none; }
 
 
 
-#projects { width:100%; margin-top:50px; margin-left:-10px; }
+#projects { width:100%; margin-top:5px; margin-left:-10px; }
 
 .prcage { width:280px; height:200px; border:4px solid #E8E8E8; border-top:26px solid #E8E8E8; float:left; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f6f6f6; -webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out; }
 
