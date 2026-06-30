@@ -383,7 +383,7 @@ body { font-size:17px; line-height:23px; }
 
 .prinfo { width:calc(100% - 40px); padding:30px 20px 0px 20px; float:none; }
 
-.prdesc { width:100%; margin-bottom:10px; }
+.prdesc { width:100%; margin-bottom:30px; }
 
 .prtags { width:100%; }
 
