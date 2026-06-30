@@ -74,7 +74,7 @@ a:hover {
 
 .prinfo { width:300px; float:right; }
 
-.prdesc { width:100%; margin-bottom:10px; }
+.prdesc { width:100%; margin-bottom:10px; padding-bottom: 25px;}
 
 .prtags { width:100%; }
 
