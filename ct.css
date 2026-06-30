@@ -45,7 +45,7 @@ a:hover {
 
 #toptitle { width:100%; margin:-20px 0px 20px 0px; text-align:center; cursor:default; }
 
-.topletter {  float:left; display:block; width:12.4%; text-align:center; font-size:25px; line-height:25px; font-family:'Quicksand', sans-serif; color:#fff; }
+.topletter {  float:left; display:block; width:11%; text-align:center; font-size:25px; line-height:25px; font-family:'Quicksand', sans-serif; color:#fff; }
 
 #subtitle { width:100%; text-align:center; margin:0px 0px 25px 0px; display:none; }
 
