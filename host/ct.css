@@ -37,6 +37,13 @@ a:hover {
     height: 200px; 
 }
 
+#city img { 
+    padding: 0;
+    border: 0;
+    max-width: 1.5em;
+    margin-left: 32px;
+}
+
 #citybase { 
     position: absolute; 
     padding: 25px; 
@@ -46,6 +53,13 @@ a:hover {
     -webkit-border-radius: 20px; 
     -moz-border-radius: 20px; 
     border-radius: 20px; 
+}
+
+#citybase img { 
+    padding: 0;
+    border: 0;
+    max-width: 1.5em;
+    margin-left: 32px;
 }
 
 #citybase a:hover {
