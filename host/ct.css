@@ -144,12 +144,11 @@ a:hover::before {
 }
 
 .aside-img {
-    
     text-decoration: none;
     text-align: center; 
     z-index: -1;
-margin-left: 108px;
-margin-top: -12px;
+    margin-left: 108px;
+    margin-top: -19px;
 }
 
 .aside-img a {
@@ -218,7 +217,7 @@ margin-top: -12px;
 
 .prcage a:hover { border:0px; margin:0px; }
 
-.prj2 { background:#FF6B6B; width:100%; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; height:80px; padding-top:25px; padding-bottom:25px;padding-left: 10px; padding-right: 10px;text-align:center; margin-bottom:50px;  }
+.prj2 { background:#FF6B6B; width:100%; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; height:80px; padding-top:25px; padding-bottom:25px;padding-left: 15px; padding-right: 15px;text-align:center; margin-bottom:50px;  }
 
 
 
