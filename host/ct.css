@@ -13,12 +13,17 @@ a {
     color: #ffef5d; 
     outline: none;  
     cursor: pointer!important;
-    border-bottom: 1px solid #fff;
+
+    box-shadow: inset 0 0 0 0 #ffef5d;
+      margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 a:hover { 
-    font-weight: 900;
     border-bottom: 2px solid #fff;
+    box-shadow: inset 100px 0 0 0 #ffef5d;
+    color: #fff;
 }
 
 .clr { 
