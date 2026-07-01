@@ -21,7 +21,7 @@ a {
   );
   background-size: 200% 100%;
   background-position: -100%;
-  display: inline-block;
+  display: inline;
   padding: 0px 0;
   position: relative;
   -webkit-background-clip: text;
@@ -30,8 +30,6 @@ a {
 }
 
 a:before {
-        line-height: 1;
-    vertical-align: baseline;
   content: '';
   background: #54b3d6;
   display: block;
