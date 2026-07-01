@@ -173,41 +173,112 @@ a:hover::before {
 }
 
 .blurbicon { 
-    font-size:20px; 
-    line-height:20px; color:#fff; text-align:center; padding:13px 15px 15px 16px; background:#FF6B6B; border:12px solid #F55858; position:absolute; margin:-30px 15px 0px -90px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; cursor:default; }
+    font-size: 20px; 
+    line-height: 20px; 
+    color: #fff; 
+    text-align: center; 
+    padding: 13px 15px 15px 16px; 
+    background: #FF6B6B; 
+    border: 12px solid #F55858; 
+    position: absolute; 
+    margin: -30px 15px 0px -90px; 
+    -webkit-border-radius: 100px; 
+    -moz-border-radius: 100px; 
+    border-radius: 100px; 
+    cursor: default; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
 
-.blurb a { color:#fff; border-bottom:1px solid #fff; margin-bottom:-1px; }
+.blurb a { 
+    color: #fff; 
+    border-bottom: 1px solid #fff; 
+    margin-bottom: -1px; 
+}
 
-.blurb a:hover { color:#fff; border-bottom:1px solid #fff; margin-bottom:-1px; }
+.blurb a:hover { 
+    color: #fff; 
+    border-bottom: 1px solid #fff; 
+    margin-bottom: -1px; 
+}
 
+#toptitle { 
+    width: 100%; 
+    margin: -20px 0px 20px 0px; 
+    text-align: center; 
+    cursor: default; 
+}
 
+.topletter {  
+    float: left; 
+    display: block; 
+    width: 11.1%; 
+    text-align: center; 
+    font-size: 25px; 
+    line-height: 25px; 
+    font-family: 'Quicksand', sans-serif; 
+    color: #fff; 
+}
 
-#toptitle { width:100%; margin:-20px 0px 20px 0px; text-align:center; cursor:default; }
+#subtitle { 
+    width: 100%; 
+    text-align: center; 
+    margin: 0px 0px 25px 0px; 
+    display: none; 
+}
 
-.topletter {  float:left; display:block; width:11.1%; text-align:center; font-size:25px; line-height:25px; font-family:'Quicksand', sans-serif; color:#fff; }
+#projects { 
+    width: 100%; 
+    margin-top: 50px; 
+    margin-left: -10px; 
+}
 
-#subtitle { width:100%; text-align:center; margin:0px 0px 25px 0px; display:none; }
+.prcage { 
+    width: 280px; 
+    height: 230px; 
+    border: 4px solid #E8E8E8; 
+    border-top: 26px solid #E8E8E8; 
+    float: left; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background: #f6f6f6; 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; 
+}
 
+.prcage:hover { 
+    width: 290px; 
+    height: 210px; 
+    margin-left: -5px; 
+    margin-top: -5px; 
+}
 
+.prdot1 { 
+    position: absolute; 
+    width: 11px; 
+    height: 11px; 
+    background: #FC6868; 
+    margin: -19px 0px 0px 3px; 
+    -webkit-border-radius: 100px; 
+    -moz-border-radius: 100px; 
+    border-radius: 100px; 
+}
 
-
-
-
-
-
-
-
-
-#projects { width:100%; margin-top:50px; margin-left:-10px; }
-
-
-.prcage { width:280px; height:230px; border:4px solid #E8E8E8; border-top:26px solid #E8E8E8; float:left; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f6f6f6; -webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out; }
-
-.prcage:hover { width:290px; height:210px; margin-left:-5px; margin-top:-5px; }
-
-.prdot1 { position:absolute; width:11px; height:11px; background:#FC6868; margin:-19px 0px 0px 3px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; }
-
-.prdot2 { position:absolute; width:11px; height:11px; background:#FAF38E; margin:-19px 0px 0px 20px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; }
+.prdot2 { 
+    position: absolute; 
+    width: 11px; 
+    height: 11px; 
+    background: #FAF38E; 
+    margin: -19px 0px 0px 20px; 
+    -webkit-border-radius: 100px; 
+    -moz-border-radius: 100px; 
+    border-radius: 100px; 
+}
 
 .prdot3 { position:absolute; width:11px; height:11px; background:#58CC7B; margin:-19px 0px 0px 37px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; }
 
