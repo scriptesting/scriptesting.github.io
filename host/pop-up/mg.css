@@ -59,7 +59,7 @@ strong { background:#FFFEDB; font-weight:500; }
 
 #controls { width:305px; margin:auto; padding-left:30px; }
 
-.buttbox { width:100px; display:block; float:left; margin-bottom:10px; }
+.buttonbox { width:100px; display:block; float:left; margin-bottom:10px; }
 
 .buttontitle { display:block; text-transform:uppercase; letter-spacing:1px; font-size:10px; margin:5px 0px 3px 0px; }
 
