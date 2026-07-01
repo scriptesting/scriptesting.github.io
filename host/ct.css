@@ -1083,37 +1083,139 @@ body {
     display: none; 
 }
 
-#mainmob { display:block; }
+#mainmob { 
+    display: block; 
+}
 
-#basemob { display:block; margin:-5px 0px 0px 0px; width:100%; background:#F55858; padding:10px 0px 100px 0px; }
+#basemob { 
+    display: block; 
+    margin: -5px 0px 0px 0px; 
+    width: 100%; 
+    background: #F55858; 
+    padding: 10px 0px 100px 0px; 
+}
 
-.blurb { margin:18px 0px 30px 0px; border-radius:0px; -moz-border-radius:0px; -webkit-border-radius:0px; padding:20px; width:calc(100% - 40px); text-align:left; font-size:17px; line-height:23px; }
+.blurb {
+    margin: 18px 0px 30px 0px; 
+    border-radius: 0px; 
+    -moz-border-radius: 0px; 
+    -webkit-border-radius: 0px; 
+    padding: 20px; 
+    width: calc(100% - 40px); 
+    text-align: left; 
+    font-size: 17px; 
+    line-height: 23px; 
+}
 
-#toptitle { width:100%; margin:15px 0px 20px 0px; text-align:center; cursor:default; }
+#toptitle { 
+    width: 100%; 
+    margin: 15px 0px 20px 0px; 
+    text-align: center;
+    cursor: default; 
+}
 
-.topletter {  float:left; display:block; width:12.4%; text-align:center; font-size:21px; line-height:21px; font-family:'Quicksand', sans-serif; color:#fff; }
+.topletter {  
+    float: left; 
+    display: block; 
+    width: 12.4%; 
+    text-align: center; 
+    font-size: 21px; 
+    line-height: 21px; 
+    font-family: 'Quicksand', sans-serif; color:#fff; 
+}
 
-#projects { width:100%; margin-top:0px; margin-left:0px; overflow:hidden; }
+#projects { 
+    width: 100%; 
+    margin-top: 0px;
+    margin-left: 0px; 
+    overflow: hidden; 
+}
 
-.prcagem { width:280px; height:230px; border:4px solid #E8E8E8; border-top:26px solid #E8E8E8; float:none; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; background:#f6f6f6; -webkit-transition:all 0.1s ease-in-out;-moz-transition:all 0.1s ease-in-out;-o-transition:all 0.1s ease-in-out;transition:all 0.1s ease-in-out; margin-top:200px; margin:auto; }
+.prcagem { 
+    width: 280px; 
+    height: 230px; 
+    border: 4px solid #E8E8E8; 
+    border-top: 26px solid #E8E8E8; 
+    float: none; 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    background: #f6f6f6; 
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out; 
+    margin-top: 200px; 
+    margin: auto; 
+}
 
-.prinfo { width:calc(100% - 40px); padding:30px 20px 0px 20px; float:none; }
+.prinfo { 
+    width: calc(100% - 40px); 
+    padding: 30px 20px 0px 20px; 
+    float: none; 
+}
 
-.prdesc { width:100%; margin-bottom:30px; }
+.prdesc { 
+    width: 100%; 
+    margin-bottom: 30px; 
+}
 
-.prtags { width:100%; }
+.prtags { 
+    width: 100%; 
+}
 
-.ptag { margin:0px 11px 9px 0px; float:left; background:#FF6B6B; padding:5px 8px 5px 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:15px; line-height:15px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; }
+.ptag { 
+    margin: 0px 11px 9px 0px; 
+    float: left; 
+    background: #FF6B6B; 
+    padding: 5px 8px 5px 8px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+    font-size: 15px; 
+    line-height: 15px; 
+    cursor: default; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
 
-.prtitle { width:100%; margin-bottom:10px; font-size:23px; line-height:23px; }
+.prtitle { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    font-size: 23px; 
+    line-height: 23px; 
+}
 
-.prj { height:auto; margin-bottom:100px; }
+.prj { 
+    height: auto; 
+    margin-bottom: 100px; 
+}
 
-.primg { width:100%; height:200px; opacity:0.8; border:0px; outline:none; }
+.primg { 
+    width: 100%; 
+    height: 200px; 
+    opacity: 0.8; 
+    border: 0px; 
+    outline: none; 
+}
 
-#bottomspace { width:100%; height:35px; margin:50px 0px 0px 0px; text-align:center; font-size:16px; line-height:16px; color:#fff; letter-spacing:2px; }
+#bottomspace { 
+    width: 100%; 
+    height: 35px; 
+    margin: 50px 0px 0px 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    line-height: 16px; 
+    color: #fff; 
+    letter-spacing: 2px; 
+}
 
-#copyr { margin-top:0px; width:100%; text-align:center; }
-
+#copyr { 
+    margin-top: 0px; 
+    width: 100%; 
+    text-align: center; 
+}
 
 }
