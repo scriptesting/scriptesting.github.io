@@ -30,6 +30,8 @@ a {
 }
 
 a:before {
+        line-height: 1;
+    vertical-align: baseline;
   content: '';
   background: #54b3d6;
   display: block;
