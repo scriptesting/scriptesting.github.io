@@ -19,14 +19,14 @@ a {
     #54b3d6 50%,
     #ffef5d 50%
   );
-  background-size: 200% 100%;
-  background-position: -100%;
-  display: inline;
-  padding: 0px 0;
-  position: relative;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  transition: all 0.3s ease-in-out;
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline;
+    padding: 0px 0;
+    position: relative;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
 }
 
 a:before {
@@ -280,39 +280,101 @@ a:hover::before {
     border-radius: 100px; 
 }
 
-.prdot3 { position:absolute; width:11px; height:11px; background:#58CC7B; margin:-19px 0px 0px 37px; -webkit-border-radius: 100px; -moz-border-radius: 100px; border-radius: 100px; }
+.prdot3 { 
+    position: absolute; 
+    width: 11px; 
+    height: 11px; 
+    background: #58CC7B; 
+    margin: -19px 0px 0px 37px; 
+    -webkit-border-radius: 100px; 
+    -moz-border-radius: 100px; 
+    border-radius: 100px; 
+}
 
-.prinfo { width:300px; float:right; }
+.prinfo { 
+    width: 300px; 
+    float: right; 
+}
 
-.prdesc { width:100%; margin-bottom:30px;}
+.prdesc { 
+    width: 100%; 
+    margin-bottom: 30px;
+}
 
-.prtags { width:100%; }
+.prtags { 
+    width: 100%; 
+}
 
-.ptag { margin:0px 9px 7px 0px; float:left; background:#FF6B6B; padding:5px 8px 5px 8px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size:13px; line-height:13px; cursor:default; -webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out; }
+.ptag { 
+    margin: 0px 9px 7px 0px; 
+    float: left; 
+    background: #FF6B6B; 
+    padding: 5px 8px 5px 8px; 
+    -webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+    font-size: 13px; 
+    line-height: 13px; 
+    cursor: default; 
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; 
+}
 
-.ptag:hover { background:#FF8787; }
+.ptag:hover { 
+    background: #FF8787; 
+}
 
-.prtitle { width:100%; margin-bottom:10px; font-size:20px; line-height:20px; }
+.prtitle { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    font-size: 20px; 
+    line-height: 20px; 
+}
 
-.prj { height:290px; }
+.prj { 
+    height: 290px; 
+}
 
-.primg { width:100%; height:100%; opacity:0.8; border:0px; outline:none; }
+.primg { 
+    width: 100%; 
+    height: 100%; 
+    opacity: 0.8; 
+    border: 0px; 
+    outline: none; 
+}
 
-.prcage a:hover { border:0px; margin:0px; }
+.prcage a:hover { 
+    border: 0px; 
+    margin: 0px; 
+}
 
-.prj2 { background:#FF6B6B;     margin-left: auto;
-    margin-right: auto;width:98%; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; height:80px; padding-top:25px; padding-bottom:25px;padding-left: 15px; padding-right: 17px;text-align:center; margin-bottom:50px;  }
+.prj2 { 
+    background: #FF6B6B;     
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px; 
+    padding: 25px 17px 25px 15px;
+    width: 98%; 
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px; 
+    height: 80px; 
+    text-align: center;  
+}
 
-
-
-
-
-
-#sun { width:200px; height:200px; position:absolute; margin:-100px 0px 0px 300px; background:#fff; -webkit-border-radius: 500px; -moz-border-radius: 500px; border-radius: 500px; z-index:0; }
-
-
-
-
+#sun { 
+    width: 200px; 
+    height: 200px; 
+    position: absolute; 
+    margin: -100px 0px 0px 300px; 
+    background: #fff; 
+    -webkit-border-radius: 500px; 
+    -moz-border-radius: 500px; 
+    border-radius: 500px; 
+    z-index: 0; 
+}
 
 #b1 { position:absolute; z-index:8; }
 
