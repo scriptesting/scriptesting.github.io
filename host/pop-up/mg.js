@@ -1,3 +1,6 @@
+// 丂匚尺丨卩ㄒ乇丂ㄒ
+// by Maddie
+
 function test() {
 var font = "#" + document.getElementById("fontf").value;
 var borders = "#" + document.getElementById("bordersf").value;
