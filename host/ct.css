@@ -72,6 +72,7 @@ a:hover::before {
     margin-left: 8px;
     margin-top: -12px;
     padding-right: 5px;
+    margin-right: 5px;
 }
 
 #citybase { 
@@ -149,6 +150,7 @@ a:hover::before {
     margin-left: 108px;
     margin-top: -19px;
     padding-right: 5px;
+    margin-right: 5px;
 }
 
 .aside-img a {
