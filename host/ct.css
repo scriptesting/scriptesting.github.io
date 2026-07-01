@@ -9,6 +9,12 @@ body {
 }
 
 a {
+        text-decoration: none; 
+    outline: none;  
+
+        border-bottom: 1px solid #fff;
+
+        cursor: pointer!important;
   background-image: linear-gradient(
     to right,
     #000,
