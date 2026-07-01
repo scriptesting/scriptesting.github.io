@@ -113,11 +113,12 @@ a:hover {
 }
 
 .aside-img {
-    margin-top: -5px;
+    
     text-decoration: none;
     text-align: center; 
     z-index: -1;
-    margin-left: 108px;
+margin-left: 108px;
+margin-top: -12px;
 }
 
 .aside-img a {
